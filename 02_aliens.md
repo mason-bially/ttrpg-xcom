@@ -2,13 +2,13 @@
 
 This is a game about aliens.
 
-## Species
+## Humanoid Species
 
-The Ethereals have modified their servants for a long time. During and after the invasion of Earth many of them were modified with human DNA to better survive the planet. 
+The Ethereals have modified their humanoid servants for a long time. During and after the invasion of Earth many of them were modified with human DNA to better survive the planet. 
 
-The primary option for player characters are a genetic hybrids, usually one that ranges from 100% to 25% human. In general 100% non-human aliens are not playable, they have been modified out of existence (though this may not always be entirely Lore Accurate, vis-a-vis vipers), and were effectively wiped out in the years following the original invasion. Their stat modifications are presented only for completeness.
+The primary option for player characters are a humanoid hybrids, usually ones that range from 100% to 25% human. In general 0% human, full aliens, are not playable, they have been modified out of existence (though this may not always be entirely Lore Accurate, vis-a-vis vipers) in the years following the original invasion by the Ethereal Gene Modding programs. Their stat modifications are presented only for completeness.
 
-The standard starting stats for all genetically based characters are:
+The standard starting stats for all humanoid based characters are:
 
 * 8 Health
 * 12 Mobility
@@ -24,15 +24,15 @@ Humans are one of the only species that have access to Psionics as a Rank featur
 
 Due to the gene therapy experiments of the Ethereals humans are the most common template for hybridization. For each 25% a character is human they may choose one of the following bonuses:
 
-* +3 Aim, +3 Tech
-* +3 Aim, +3 Will
-* +3 Will, +3 Tech
-* +7 Aim (50% human or better)
-* +7 Will (50% human or better)
-* +7 Tech (50% human or better)
+* +3 Aim, +4 Tech
+* +3 Aim, +4 Will
+* +4 Will, +4 Tech
+* +8 Aim (50% human or better)
+* +9 Will (50% human or better)
+* +9 Tech (50% human or better)
 * +1 Health (75% human or better)
 * +1 Mobility (75% human or better)
-* +3 Aim, +3 Will, +3 Tech (100% human)
+* +4 Aim, +5 Will, +5 Tech (100% human)
 * +10 Psi (100% human)
 
 ### Sectoid
