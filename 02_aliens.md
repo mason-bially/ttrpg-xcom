@@ -40,6 +40,7 @@ Due to the gene therapy experiments of the Ethereals humans are the most common 
 Sectoids have access to special neural network psionic Rank features (a minor version at 25%, the main ones at 50%, and an especially powerful one at 100%).
 
 |Percentage|Example|Attributes|
+|---|---|---|
 |100%|XCOM EU Sectoid|90 Psi, -4 Health, +15 Aim, +20 Will|
 |75%|XCOM 2 Sectoid|80 Psi, -3 Health, +10 Aim, +15 Will|
 |50%|XCOM CS Verge|70 Psi, -2 Health, +5 Aim, +10 Will|
@@ -50,6 +51,7 @@ Sectoids have access to special neural network psionic Rank features (a minor ve
 Vipers have access to special viper ability Rank features (poison at 25% and 50%; Tongue pull and bind at 75%).
 
 |Percentage|Example|Attributes|
+|---|---|---|
 |100%|N/A|40 Dodge, -2 Health, +3 Mobility, +15 Aim|
 |75%|XCOM 2 Viper, XCOM CS Torque|30 Dodge, -2 Health, +2 Mobility, +10 Aim|
 |50%|N/A|20 Dodge, -1 Health, +1 Mobility, +5 Aim|
@@ -60,6 +62,7 @@ Vipers have access to special viper ability Rank features (poison at 25% and 50%
 Mutons have access to super strength and heavy cybernetic armor ability Rank features (starting at 50% and 75% respectively).
 
 |Percentage|Example|Attributes|
+|---|---|---|
 |100%|XCOM EU Muton|20 Defense, +4 Health, -20 Will, +15 Aim, +20 Tech|
 |75%|XCOM 2 Muton|15 Defense, +2 Health, -15 Will, +10 Aim, +15 Tech|
 |50%|XCOM CS Axiom|10 Defense, +1 Health, -10 Will, +5 Aim, +10 Tech|

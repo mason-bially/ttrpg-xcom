@@ -24,7 +24,7 @@ Some attributes every character has, like **health**, others only some character
 
 There are three core attributes that almost all characters have that are commonly used for most checks:
 
-* **Aim** - The ability to coordinate one's actions. Primarily used for aiming weapons.
+* **Aim** - The ability to coordinate one's actions. Primarily used for aiming weapons and complex physical actions.
 * **Will** - The ability to exert one's will. Primarily used for social situations and protecting against psionics.
 * **Tech** - The ability to use one's skills. Primarily used for hacking technology and performing specialized tasks.
 
