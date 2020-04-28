@@ -16,6 +16,8 @@ The standard starting stats for all humanoid based characters are:
 * 50 Will
 * 40 Tech
 
+This is based on the assumption that characters are at peak fitness for their species, and are middle aged. For older characters reduce Aim by up to 30 and increase Tech and Will (at a 2:1 ratio; that is a much older character would be 30 Aim, 60 Will, 60 Tech) the corresponding amount.
+
 ### Human
 
 Humans are the most populous species on Earth, and the most adapted to live on the planet. Unlike the alien races that invaded Earth Humans have not been entirely specialized by Ethereals, hence they represent the most diverse range of possible attributes, but they also do not have access to any special abilities or attributes by default.
@@ -37,7 +39,7 @@ Due to the gene therapy experiments of the Ethereals humans are the most common 
 
 ### Sectoid
 
-Sectoids have access to special neural network psionic Rank features (a minor version at 25%, the main ones at 50%, and an especially powerful one at 100%).
+Sectoids have access to special neural network psionic Rank features (a minor version at 25%, the main one at 50%, a buff at 75%, and an especially powerful one at 100%).
 
 |Percentage|Example|Attributes|
 |---|---|---|
