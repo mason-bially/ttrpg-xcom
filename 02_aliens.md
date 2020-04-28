@@ -41,10 +41,10 @@ Sectoids have access to special neural network psionic Rank features (a minor ve
 
 |Percentage|Example|Attributes|
 |---|---|---|
-|100%|XCOM EU Sectoid|90 Psi, -4 Health, +15 Aim, +20 Will|
-|75%|XCOM 2 Sectoid|80 Psi, -3 Health, +10 Aim, +15 Will|
-|50%|XCOM CS Verge|70 Psi, -2 Health, +5 Aim, +10 Will|
-|25%|XCOM 2 ADVENT/Skirmishers, XCOM CS Axiom|+10 Psi, -1 Health, +5 Will|
+|100%|XCOM EU Sectoid|80 Psi, -4 Health, +15 Aim, +20 Will|
+|75%|XCOM 2 Sectoid|70 Psi, -3 Health, +10 Aim, +15 Will|
+|50%|XCOM CS Verge|60 Psi, -2 Health, +5 Aim, +10 Will|
+|25%|XCOM 2 ADVENT/Skirmishers, XCOM CS Axiom|+10 Psi, -1 Health, +5 Aim, +5 Will|
 
 ### Viper
 
@@ -52,10 +52,10 @@ Vipers have access to special viper ability Rank features (poison at 25% and 50%
 
 |Percentage|Example|Attributes|
 |---|---|---|
-|100%|N/A|40 Dodge, -2 Health, +3 Mobility, +15 Aim|
-|75%|XCOM 2 Viper, XCOM CS Torque|30 Dodge, -2 Health, +2 Mobility, +10 Aim|
-|50%|N/A|20 Dodge, -1 Health, +1 Mobility, +5 Aim|
-|25%|XCOM EU Thin Man|10 Dodge, -1 Health|
+|100%|N/A|40 Dodge, -2 Health, +4 Mobility, +15 Aim|
+|75%|XCOM 2 Viper, XCOM CS Torque|30 Dodge, -2 Health, +3 Mobility, +10 Aim|
+|50%|N/A|20 Dodge, -1 Health, +2 Mobility, +5 Aim|
+|25%|XCOM EU Thin Man|10 Dodge, -1 Health, +1 Mobility|
 
 ### Muton
 
