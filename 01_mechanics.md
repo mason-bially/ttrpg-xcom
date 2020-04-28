@@ -21,23 +21,26 @@ Characters - player and enemy alike - have attributes. These are the core stats 
 
 Some attributes every character has, like **health**, others only some characters have, like **psi**. Attributes that aren't listed for a character can be assumed to be 0.
 
-There are four attributes that are most commonly rolled as checks:
+There are three core attributes that almost all characters have that are commonly used for most checks:
 
 * **Aim** - The ability to coordinate one's actions. Primarily used for aiming weapons.
 * **Will** - The ability to exert one's will. Primarily used for social situations and protecting against psionics.
-* **Tech** - The ability to perform technical tasks. Primarily used for hacking technology and performing specialized tasks.
-* **Psi** - For those with psionics, the ability to project that power.
+* **Tech** - The ability to use one's skills. Primarily used for hacking technology and performing specialized tasks.
 
-The other attributes, explained briefly are:
+The other attributes, which cannot be checked are:
 
-* **Health** - The amount of physical damage one can withstand. Describes both the maximum health and the current health. Cannot be checked.
-* **Mobility** - The amount of distance one can cover. Describes the number of tiles a character can move in an action. Cannot be checked.
+* **Health** - The amount of physical damage one can withstand. Describes both the maximum health and the current health. All characters have this.
+* **Mobility** - The amount of distance one can cover. Describes the number of tiles a character can move in an action. Most characters have this (or a special rule instead).
+* **Armor** - The innate amount of damage reduction. Few characters have this.
+
+There are then some special attributes, which are rare for characters to have (though all members of a given species of alien often has one of these), which primarily have built-in special rules, and are sometimes checked:
+
+* **Psi** - For those with psionics, the ability to project that power. This special attribute is the closest to the core attributes in that it is often checked.
 * **Defense** - The innate protection one has available. A defensive modifier (a malus against other character's checks). Sometimes checked for withstanding extreme damage.
 * **Dodge** - The ability to react quickly to danger. Primarily used in reaction to attacks to reduce the damage of incoming fire. Sometimes checked for reactions.
-* **Crit** - The ability to hit just the right spot. Primarily used in combat as a chance to increase damage. Sometimes checked for luck.
-* **Armor** - The innate amount of damage reduction. Cannot be checked.
+* **Crit** - The ability to hit just the right spot. Primarily used in combat as a chance to increase damage. Sometimes checked for luck or superskill.
 
-There are many ways to modify these attributes. Equipment often modifies these attributes for most combat situations, for example a laser sight increases the Crit attribute when firing *that weapon*. The point here is that most characters will have 0 Dodge and 0 Crit outside of combat situations - even if they have the armor on - because those bonuses are granted by equipment that only applies to combat.
+There are many ways to modify these attributes contextually. Equipment often modifies these attributes for most combat situations, for example a laser sight increases the Crit attribute when firing *that weapon*. Hiding behind cover technically grants the character defense. The point here is that most characters will have 0 Dodge and 0 Crit outside of combat situations - even if they have the armor on - because those bonuses are granted by equipment that only applies to combat.
 
 ### Aim
 
@@ -45,18 +48,18 @@ There are many ways to modify these attributes. Equipment often modifies these a
 
 ### Tech
 
-### Psi
-
 ### Health
 
 ### Mobility
+
+### Armor
+
+### Psi
 
 ### Defense
 
 ### Dodge
 
 ### Crit
-
-### Armor
 
 
