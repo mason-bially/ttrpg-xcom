@@ -1,3 +1,4 @@
+# Mechanics
 
 This table top roleplaying game is a d100 system. Meaning when there is an action to resolve that has a chance of failing we randomly determine a number between 1 and a 100 and then compare that to our character's ability and the relevant modifiers. We generate this number by rolling two ten sided dice with different marks for the 10s and 1s positions.
 
@@ -61,5 +62,8 @@ There are many ways to modify these attributes contextually. Equipment often mod
 ### Dodge
 
 ### Crit
+
+## Combat
+
 
 
