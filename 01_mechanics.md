@@ -45,6 +45,10 @@ There are many ways to modify these attributes contextually. Equipment often mod
 
 ### Aim
 
+Used for any check that requires coordination and physical skill.
+
+Primarily used for making attacks during combat.
+
 ### Will
 
 ### Tech
@@ -65,5 +69,59 @@ There are many ways to modify these attributes contextually. Equipment often mod
 
 ## Combat
 
+Combat is based off of the XCOM video games. It takes place on a grid of squares which are roughly 5 feet to a side.
 
+### Turn Order
 
+The turn order is a simple back and forth between the GM and the players. All of the players and any characters under their control will take all of their actions in any order. Then the GM will move all of their characters in whatever order (though they should make an effort to group them into factions if there is more than one group in involved).
+
+Most characters get two actions per turn. Some actions will cause a character's turn to end, even if it is their first turn. Some actions are full turn actions and require both actions to perform.
+
+Some actions are free actions and can be taken at any time. And some actions are movement actions which can be taken during movement.
+
+#### Actions
+
+There are some basic actions that all characters - in general - can be expected to be able to perform.
+
+##### Attack (Basic Action)
+
+Using an equipped weapon the player may make an attack.
+
+### Attacks
+
+Performing an attack does the following steps:
+
+- Choose a target you can see.
+- Attack
+    - Determine the target's defense.
+        - Innate defense stat.
+        - Apply one form of cover.
+            - The enemy is not in cover or is flanked.
+            - Half-Cover provides +20 defense against ranged attacks.
+            - Full Cover provides +40 defense against ranged attacks.
+        - Other conditions.
+    - Calculate the target value.
+        - Aim is the base target value.
+        - Subtract the target's defense.
+        - Add any bonuses.
+            - Melee attacks get +20.
+            - If the enemy is marked, and it's a ranged attack, get +15.
+            - Other conditions.
+    - Make the Aim check against the target value.
+        - If it fails, the attack is over.
+- Dodge/Crit - can be rolled simultaneously
+    - If the defender has Dodge they check it.
+    - If the attacker has Crit they check it.
+        - +50 Crit if the enemy is flanked.
+    - If neither Crit nor Dodge are successful, continue to damage.
+    - If both Crit and Dodge are successful, some abilities may trigger, continue to damage.
+    - If only Crit is successful then the attack is a critical hit, some abilities may trigger.
+    - If only Dodge is successful then the attack is a grazing hit, some abilities may trigger.
+- Damage
+    - Take the weapons base damage.
+    - Roll damage based on the damage range.
+    - Modify based on hit type:
+      - Grazing Hit: Divide total damage by 2 (round up).
+      - Critical Hit: Add the damage range value (e.g. a maximum possible roll) to the damage.
+    - Subtract the target's armor from the damage (minimum damage value is 1).
+    - Apply the damage to the targets health, some abilities may trigger.

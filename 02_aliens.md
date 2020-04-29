@@ -22,7 +22,7 @@ This is based on the assumption that characters are at peak fitness for their sp
 
 Humans are the most populous species on Earth, and the most adapted to live on the planet. Unlike the alien races that invaded Earth Humans have not been entirely specialized by Ethereals, hence they represent the most diverse range of possible attributes, but they also do not have access to any special abilities or attributes by default.
 
-Humans are one of the only species that have access to Psionics as a Rank feature (must be 75% human).
+Grants access to psionics paths for 75% human characters.
 
 Due to the gene therapy experiments of the Ethereals humans are the most common template for hybridization. For each 25% a character is human they may choose one of the following bonuses:
 
@@ -39,7 +39,7 @@ Due to the gene therapy experiments of the Ethereals humans are the most common 
 
 ### Sectoid
 
-Sectoids have access to special neural network psionic Rank features (a minor version at 25%, the main one at 50%, a buff at 75%, and an especially powerful one at 100%).
+Grants access to psionics paths for 50% Sectoid characters. And a special Neural Network psionic path for 25% Sectoid characters.
 
 |Percentage|Example|Attributes|
 |---|---|---|
@@ -50,7 +50,7 @@ Sectoids have access to special neural network psionic Rank features (a minor ve
 
 ### Viper
 
-Vipers have access to special viper ability Rank features (poison at 25% and 50%; Tongue pull and bind at 75%).
+Grants access to the Viper Bind path at 75%, grants access to the Viper Venom path at 25%.
 
 |Percentage|Example|Attributes|
 |---|---|---|
@@ -61,7 +61,7 @@ Vipers have access to special viper ability Rank features (poison at 25% and 50%
 
 ### Muton
 
-Mutons have access to super strength and heavy cybernetic armor ability Rank features (starting at 50% and 75% respectively).
+Grants access to the Super-soldier path at 50% and the Exo-soldier path at 75%.
 
 |Percentage|Example|Attributes|
 |---|---|---|
