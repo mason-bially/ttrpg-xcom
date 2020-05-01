@@ -45,13 +45,37 @@ There are many ways to modify these attributes contextually. Equipment often mod
 
 ### Aim
 
-Used for any check that requires coordination and physical skill.
+Used for any check that requires coordination and physical skill (uncommon out of combat).
 
-Primarily used for making attacks during combat.
+In combat, is primarily used for making attacks.
+
+Aim for attacks uses a proficiency system. Without the relevant proficiency for the weapon in use automatically makes all attacks (even crits) with that weapon grazes (and normal grazes are misses).
 
 ### Will
 
+Used for checks relating to social situations and leadership. This is based off of the idea that to be a good leader or to talk to others requires willpower to face that situation. This is the Charisma stat.
+
+In combat, is primarily used to resist psionics. It is subtracted from the Psi score of all psionic users (though it must be above 50 to begin making the Psi user less likely to succeed) in contested psionics.
+
+Willpower checks for social situations will often suffer modifiers depending on the relative species of the parties. Notably it requires significant more willpower to talk to those that are more alien and those with psionics (on top of the powers psionics give).
+
+The formula for Will penalties in social situations is:
+
+* -5 Will, for every 25% distance in species.
+* -5 Will, for extreme alien features (generally aliens from extreme environments).
+* -5 Will, for talking those with obviously strong psionics (while lacking the Psi skill).
+
+This accounts for the general social unrest between different alien species, and between humans and aliens.
+
 ### Tech
+
+(AKA Hack) Used for checks relating to situations which require specialized knowledge and skills. This is based off of the idea that most technical knowledge and training improves skills across the board, a thematic element of the XCOM universe. But also the extreme suffusion of technology and the use of it for solving most problems means skill in technology is the first important check.
+
+In combat, is primarily used for hacking enemies and other utility actions (like medical care or repair).
+
+Tech for use of equipment uses a proficiency system. Without the relevant proficiency for the equipment in use the user suffers a -50 Tech penalty (if the resulting tech score is below 0, the equipment cannot be used at all) for all rolls with the equipment. Most other equipment abilities (those that don't require rolls) will simply be unusable.
+
+Tech for checks out of combat will often require specialized abilities to be performed at all. Which is to say if a character has a 70 in Tech but no Researcher, Doctor, Engineer, Hacker, Investigator, or similar abilities, then the character won't be able to make much use of that score.
 
 ### Health
 
@@ -61,11 +85,43 @@ Primarily used for making attacks during combat.
 
 ### Psi
 
+Used for performing psionic abilities. Both in and out of combat.
+
+The general formula for psionic skill checks is the difficulty of the psionic skill—usually 0 but may range from +20 to -50—plus the user's Psi score. For contested checks one subtracts the target's Will score and adds 50 (for the average Will power) as contested abilities are often trained to be contested.
+
+Most Psionic citizens—especially alien ones—are expected to wear (self removable) Psi collars in public (outside of their specific neighborhoods or homes) which apply a -105 modifier to all Psi abilities and prevents the use of external focuses. Psi is often enhanced with focuses (generally called Psi AMPs), but these tools (weapons) are generally illegal and are only slightly more offensive than heavy arms (machine guns, grenade launchers) in most social situations. Psi AMPs can also increase psionic damage.
+
+Unmodified sectoids and humans at peak skill can be expected to have as much as 100 Psi, though often between 60-80 is more common. With a Psi AMP and significant enhancement (genetic, cybernetic, and psionic) as much as ~160 can be reached (Avatars were 200).
+
 ### Defense
+
+Used for resisting incoming damage through physical protection and autonomic processes. Both in and out of combat.
+
+The primary use of this attribute is that it is subtracted from Aim for all attacks against the character.
+
+The secondary use of this skill is for resisting diseases, toxins, poisons, explosions, hard vacuum and other similar situations. Generally the check for these situations starts at +50 and difficulty is subtracted or added depending on the specific situation.
+
+Mutons are the main species to have innate Defense. Though it is often granted contextually through the use of cover, and sometimes armor and equipment, or by abilities. Cybernetic and genetic modification can also provide it.
 
 ### Dodge
 
+Used for dodging incoming fire and making super human reactions. Both in and out of combat.
+
+The primary use of this attribute is that it allows dodging fire in combat to prevent citical hits and reduce normal hits to grazing hits.
+
+The secondary use of this skill is for reacting quickly in certain out of combat situations. In general a distinction is made between "intuitive" and "thinking" reactions. Only intuitive reactions can be made. For example someone making a sudden movement (deciding whether they are going for their weapon or maybe pushing a button or maybe just jumping up would be too much thinking, sudden movement would be the only cue) would allow for an intuitive reaction to restrain the person on a successful dodge roll. These checks often start at +50 and then modifiers for the difficulty of the situation. In general dodging damage can only be done if it can be seen comming, and an attack by an intelligent entity uses the normal dodge rolls.
+
+Vipers are the main species to have innate Dodge. Though it is sometimes granted contextually through the use of armor and equipment, or by abilities. Cybernetic and genetic modification can also provide it.
+
 ### Crit
+
+Used for performing exceptionally skillful actions. Both in and out of combat. This can be seen as a form of "luck" but is closer to "superskill".
+
+The primary use of this attribute is that it allows scoring critical hits in combat.
+
+The secondary use of this skill is for performing especially skillful actions in certain out of combat situations. Generally these are Tech or Will rolls with systemized results from abilities, which will also often grant the contextual Crit bonus, and the results.
+
+Very few species have innate Crit (Etherals, Codexs, and Avatars). It is generally gained contextually through situations, equipment, or abilities. No known cybernetic or genetic modification can provide it.
 
 ## Combat
 
@@ -75,17 +131,25 @@ Combat is based off of the XCOM video games. It takes place on a grid of squares
 
 The turn order is a simple back and forth between the GM and the players. All of the players and any characters under their control will take all of their actions in any order. Then the GM will move all of their characters in whatever order (though they should make an effort to group them into factions if there is more than one group in involved).
 
-Most characters get two actions per turn. Some actions will cause a character's turn to end, even if it is their first turn. Some actions are full turn actions and require both actions to perform.
+Most characters get two actions per turn (Core Actions). Some actions will cause a character's turn to end, even if it is their first turn (Final Action). Some actions are full turn actions and require both actions to perform (Full Action).
 
-Some actions are free actions and can be taken at any time. And some actions are movement actions which can be taken during movement.
+Some actions are free actions and can be taken at any time (Free Action). And some actions are movement actions which can be taken during movement (Move Action).
 
 #### Actions
 
 There are some basic actions that all characters - in general - can be expected to be able to perform.
 
-##### Attack (Basic Action)
+##### Attack (Final Action)
 
 Using an equipped weapon the player may make an attack.
+
+##### Move (Core Action)
+
+The player may move their mobility score.
+
+##### Dash (Full Action)
+
+The player may move twice their mobility score. During this time they will have +30 Dodge against reaction actions.
 
 ### Attacks
 
@@ -125,3 +189,11 @@ Performing an attack does the following steps:
       - Critical Hit: Add the damage range value (e.g. a maximum possible roll) to the damage.
     - Subtract the target's armor from the damage (minimum damage value is 1).
     - Apply the damage to the targets health, some abilities may trigger.
+
+### Movement
+
+Movement is one point of mobility per square traversed horizontally and vertically. And three points of mobility per two squares traversed diagonally: this is spent 2 points of mobility for the first diagonal, 1 point for the second diagonal, and repeat.
+
+Some move actions (kicking down doors) can be done during movement for the cost of mobility points. And some (breaking through windows) can be done for free.
+
+Some terrain is rough (like that which requires parkour over) and requires double mobility points to enter each square.
