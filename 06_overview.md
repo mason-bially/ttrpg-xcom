@@ -1,5 +1,15 @@
 # Overview
 
+The parameters of the XCOM mission remain unchanged as well. **Survive. Adapt. Win.**
+
+As a former resistence movement totaling tens of thousands, with only hundreads at the inner circle of it, XCOM was not capable of expanding to a world military, let alone police force. Survival would be the first step for these new tasks forces, establishing friendly relationships and foot holds with local government and forces.
+
+Adapting to their new role as something closer to a police force meant unlearning lethal gurellia tactics, for less-lethal investigation tactics.
+
+The path to victory would be unique to each task force.
+
+### The Overview Map
+
 The overall state of the XCOM mission is represented by an overview map. This can be a World map (for "classic" XCOM), Regional map (for a resistance cell), or City map (for post war peacekeeping).
 
 In general this map consists of the following information which the GM should track:
@@ -34,3 +44,7 @@ The basic mechanics are relatively straight forward. The overview advances one d
 The GM will be keeping track of events throughout the world and on some days there will be situations to respond to (often having to pick an option) which should trigger a discussion. Discussions will also often happen after a mission when choosing how to strategize, or after a task is complete and resources need to be reallocated.
 
 Most situations that are triggered will be combat missions with a scene relating it to the overarching goal of the squad. But sometimes they will be interactions with non-player characters (social situations), often depending on who was doing which tasks. It's important to make sure players don't get bored, inviting other players into the conversation is one solution, and keeping the scenes short another.
+
+#### Activity Types
+
+Players will each choose a primary and bonus activity for each day. The primary activity will often be towards group goals (Recovery, Operations, Research, Engineering) and the bonus activity towards more specific and personal ones (Training, Abilities).

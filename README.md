@@ -13,3 +13,5 @@ Not intended for commercial use. Do not sell this (print it yourself, for yourse
 3. [Operatives](03_operatives.md)
 4. [Abilities](04_abilities.md)
 5. [Character Creation](05_creation.md)
+6. [Overview System](06_overview.md)
+7. [Equipment](07_equipment.md)
