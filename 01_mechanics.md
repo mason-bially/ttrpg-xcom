@@ -30,9 +30,9 @@ There are three core attributes that almost all characters have that are commonl
 
 The other attributes, which cannot be checked are:
 
-* **Health** - The amount of physical damage one can withstand. Describes both the maximum health and the current health. All characters have this.
+* **Health** - The amount of physical damage one can withstand. Describes the maximum health (but in general can also reference the current health). All characters have this.
 * **Mobility** - The amount of distance one can cover. Describes the number of tiles a character can move in an action. Most characters have this (or a special rule instead).
-* **Armor** - The innate amount of damage reduction. Few characters have this.
+* **Armor** - The innate amount of damage reduction, is never an innate attribute.
 
 There are then some special attributes, which are rare for characters to have (though all members of a given species of alien often has one of these), which primarily have built-in special rules, and are sometimes checked:
 
@@ -51,6 +51,8 @@ In combat, is primarily used for making attacks.
 
 Aim for attacks uses a proficiency system. Without the relevant proficiency for the weapon in use automatically makes all attacks (even crits) with that weapon grazes (and normal grazes are misses).
 
+Out of combat this can be used for checks of slight of hand and driving.
+
 ### Will
 
 Used for checks relating to social situations and leadership. This is based off of the idea that to be a good leader or to talk to others requires willpower to face that situation. This is the Charisma stat.
@@ -63,9 +65,9 @@ The formula for Will penalties in social situations is:
 
 * -5 Will, for every 25% distance in species.
 * -5 Will, for extreme alien features (generally aliens from extreme environments).
-* -5 Will, for talking those with obviously strong psionics (while lacking the Psi skill).
+* -5 Will, for talking those with obviously strong psionics (unless the user is also psionic).
 
-This accounts for the general social unrest between different alien species, and between humans and aliens.
+This accounts for the general social unrest between different alien species, and between humans and aliens. For example a gatekeeper triggers all of these penalties for a general total of -30.
 
 ### Tech
 
@@ -97,7 +99,7 @@ Unmodified sectoids and humans at peak skill can be expected to have as much as 
 
 Used for resisting incoming damage through physical protection and autonomic processes. Both in and out of combat.
 
-The primary use of this attribute is that it is subtracted from Aim for all attacks against the character.
+The primary use of this attribute is that it is subtracted from Aim for all attacks against the character. This is body armor, shielding, cover, or natural armor preventing the attack from connecting and doing much damage (the attack "hits" whatever is providing the defense to no effect).
 
 The secondary use of this skill is for resisting diseases, toxins, poisons, explosions, hard vacuum and other similar situations. Generally the check for these situations starts at +50 and difficulty is subtracted or added depending on the specific situation.
 
@@ -186,7 +188,7 @@ Performing an attack does the following steps:
     - Roll damage based on the damage range.
     - Modify based on hit type:
       - Grazing Hit: Divide total damage by 2 (round up).
-      - Critical Hit: Add the damage range value (e.g. a maximum possible roll) to the damage.
+      - Critical Hit: Add the damage range value (e.g. a maximum possible roll, without base damage) to the damage.
     - Subtract the target's armor from the damage (minimum damage value is 1).
     - Apply the damage to the targets health, some abilities may trigger.
 
@@ -197,3 +199,19 @@ Movement is one point of mobility per square traversed horizontally and vertical
 Some move actions (kicking down doors) can be done during movement for the cost of mobility points. And some (breaking through windows) can be done for free.
 
 Some terrain is rough (like that which requires parkour over) and requires double mobility points to enter each square.
+
+Some common move actions that can be done during movement:
+
+##### Equipping (Move Action; 4/Varies)
+
+In general it costs 4 movement points to change a piece of equipment to something you have at the ready. Some heavy weapons require 6 or 8. (Some sidearms are free to equip, but you will need to equip your main weapon again).
+
+##### Take (Move Action; 4)
+
+In general to take a small loose item from the enviroment and either equip it or store it takes 4 movement points.
+
+##### Carry (Move Action; 10)
+
+To pick up a person or other heavy item requires 
+
+(see the the weapon tables for the points necessary), picking people up (10 movement), or putting them down (2 movement; free action to drop).
